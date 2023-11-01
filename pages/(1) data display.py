@@ -47,3 +47,25 @@ col1, col2 = st.columns(2)
 col1.metric("온도", "12.4℃", "1.2℃")
 col2.metric("온도", "12.4℃", "1.2℃")
 st.divider()
+
+# 수학 문제
+def is_prime(num):
+    """주어진 수가 소수인지 판별하는 함수"""
+    if num <= 1:
+        return False
+    for i in range(2, int(num**0.5) + 1):
+        if num % i == 0:
+            return False
+    return True
+
+st.title("소수 판별기")
+
+# 사용자로부터 자연수 입력 받기
+num = st.number_input("자연수를 입력하세요", min_value=1, value=1, step=1)
+
+# 버튼을 누르면 소수 판별 결과 출력
+if st.button("소수 판별"):
+    if is_prime(num):
+        st.success(f"{num}은(는) 소수입니다!")
+    else:
+        st.warning(f"{num}은(는) 소수가 아닙니다.")
