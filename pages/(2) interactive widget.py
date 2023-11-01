@@ -30,13 +30,8 @@ st.write(f"학생 수는 {num_students}입니다. ")
 
 st.divider()
 # 날짜 입력 위젯
-input_date = st.date_input("오늘 날짜를 입력해주세요.")
+# input_date = st.date_input("오늘 날짜를 입력해주세요.")
 
-# 날짜 확인 및 출력
-if input_date == datetime.date(2023, 11, 1):
-    st.write("맞습니다!")
-else:
-    st.write("틀렸습니다.")
 # 요일 확인 미니 프로젝트
 input_date = st.date_input("요일을 찾고 싶은 날짜를 입력해주세요.")
 if input_date:
