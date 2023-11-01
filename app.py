@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.title("Exploratory Data Analysis")
-st.write("Hello, statistics!")
+st.header("Hello, statistics!")
 
 name = st.text_input("이름을 입력해주세요.")
 if name != "":
