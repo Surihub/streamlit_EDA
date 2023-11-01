@@ -33,7 +33,7 @@ st.divider()
 input_date = st.date_input("오늘 날짜를 입력해주세요.")
 
 # 날짜 확인 및 출력
-if input_date == date(2023, 11, 1):
+if input_date == datetime.date(2023, 11, 1):
     st.write("맞습니다!")
 else:
     st.write("틀렸습니다.")
