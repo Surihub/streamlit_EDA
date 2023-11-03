@@ -101,9 +101,3 @@ wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
 widgetsnbextension @ file:///C:/b/abs_882k4_4kdf/croot/widgetsnbextension_1679313880295/work
 win-inet-pton @ file:///C:/ci/win_inet_pton_1605306162074/work
 zipp @ file:///C:/b/abs_b9jfdr908q/croot/zipp_1672387552360/work
-=======
-streamlit
-seaborn
-matplotlib
-statsmodels
->>>>>>> bd5e3fbcf62bde4970a1996614ff720b049535e5
